@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Slider-->
+    <div class="slider">
+        <!--Radio controllers-->
+        <input type="radio" name="sld" id="sld1">
+        <input type="radio" name="sld" id="sld2">
+        <input type="radio" name="sld" id="sld3">
+        <input type="radio" name="sld" id="sld4">
+        <input type="radio" name="sld" id="sld5">
+    
+
+    <div class="slides">
+        <!--slide01-->
+        <div class="slide curr">
+        <img src="./img/broom.jpg" alt="">
+            <div class="desc">
+                <h2>Broom style Bonsai (Hokidachi)</h2>
+                 <p>The broom style is suited for deciduous trees with extensive, fine branching. 
+                The trunk is straight and upright and does not continue to the top of the tree; 
+                it branches out in all directions at about 1/3 the height of the tree. 
+                The branches and leaves form a ball-shaped crown which is also a stunning sight during winter months.</p>
+                <a href="#">View More..</a>
+            </div>
+        </div>
+
+        <!--slide02-->
+        <div class="slide">
+        <img src="./img/lit.jpg" alt="">
+        <div class="desc">
+            <h2>Literati Bonsai style (Bunjingi)</h2>
+            <p>In nature this style of tree is found in areas densely populated by many other trees and 
+                competition is so fierce that the tree can only survive by growing taller then all others around it. 
+                The trunk grows crookedly upward and is completely without branching because the sun only hits the top of the tree. 
+                To make sure that it looks even tougher, some branches are “Jinned” (without bark). 
+                When the bark has been removed from one side of the trunk, the trunk is referred to as a “Shari”. 
+                The idea is to demonstrate that the tree has to struggle to survive. 
+                These trees are often placed in small, round pots.</p>
+                 <a href="#">View More..</a>
+        </div>
+    </div>
+
+        <!--slide03-->
+        <div class="slide">
+        <img src="./img/semicascade.jpg" alt="">
+        <div class="desc">
+            <h2>Semi cascade Bonsai style (Han-kengai)</h2>
+            <p>The semi-cascade style, just like the cascade style, is found in nature on cliffs and on the banks of rivers and lakes. 
+                The trunk grows upright for a small distance and then bends downwards/sidewards. Unlike the cascade style, 
+                the semi-cascade trunk will never grow below the bottom of the pot. 
+                The crown is usually above the rim of the pot while subsequent branching occurs below the rim. </p>
+            <a href="#">View More..</a>
+        </div>
+    </div>
+
+        <!--slide04-->
+        <div class="slide">
+        <img src="./img/upright.jpg" alt="">
+        <div class="desc">
+            <h2>Informal upright Bonsai style (Moyogi)</h2>
+            <p>The informal upright style is common in both nature and in the art of Bonsai. 
+                The trunk grows upright roughly in the shape of a letter ‘S’ and at every turn branching occurs. 
+                Tapering of the trunk must be clearly visible, with the base of the trunk thicker than the higher portion</p>
+                <a href="#">View More..</a>
+        </div>
+    </div>
+
+        <!--slide05-->
+        <div class="slide">
+        <img src="./img/Windswept.jpg" alt="">
+        <div class="desc">
+            <h2>Windswept Bonsai style (Fukinagashi)</h2>
+            <p>The windswept style also is a good example of trees that must struggle to survive. 
+                The branches as well as the trunk grow to one side as if the wind has been blowing the tree constantly in one direction. 
+                The branches grow out on all sides of the trunk but will all eventually be bent to one side.</p>
+                <a href="#">View More..</a>
+        </div>
+    </div>
+</div>
+    <!--Arrow navigation-->
+    <a href="#" class="arrow left"><i class="fas fa-arrow-circle-left"></i></a>
+    <a href="#" class="arrow right"><i class="fas fa-arrow-circle-right"></i></a>
+    
+    <!--Radio Navigation-->
+    <div class="rad-nav">
+        <label for="sld1" class="rad-btn active"></label>
+        <label for="sld2" class="rad-btn"></label>
+        <label for="sld3" class="rad-btn"></label>
+        <label for="sld4" class="rad-btn"></label>
+        <label for="sld5" class="rad-btn"></label>
+    </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
